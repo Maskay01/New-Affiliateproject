@@ -1,0 +1,74 @@
+body{
+  background-color: lightpink;
+  margin-bottom: 400px;
+  margin-top: 50px;
+}
+
+nav img{
+  position: fixed;
+  width: 120px;
+  padding-left: 50px;
+}
+
+img{
+  width: 300px;
+  padding: 20px;
+  
+}
+
+#Uniform{
+  text-align: center;
+  background-color: rgba(80, 70, 85, 0.8);
+  opacity: 70%;
+  padding: 20px;
+  margin: 35px;
+}
+
+input{
+  color: gold;
+  text-align: left;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+
+::placeholder{
+  background: black;
+  text-align: left;
+  color: #2bffff;
+  padding: 3px;
+}
+
+label{
+  color: gold;
+}
+
+button{
+  border-width: 3px;
+  border-radius: 12px;
+  border-style: solid;
+  background: #2bffff;
+  color: black;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(214, 38, 38);
+  opacity: 0.3;
+  transition: opacity 4s;
+}
+
+button:active {
+  color: white;
+  opacity: 0.5px;
+}
+
+footer{
+  color: yellowgreen;
+  font-style: oblique;
+}
